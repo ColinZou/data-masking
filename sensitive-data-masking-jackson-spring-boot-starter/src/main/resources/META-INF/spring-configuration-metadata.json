@@ -1,0 +1,215 @@
+{
+  "properties": [
+    {
+      "name": "web.desensitizer.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enabled status for the desensitizer",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "web.desensitizer.classNamePrefix",
+      "type": "java.lang.String",
+      "description": "Class name prefix for desensitizing",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "web.desensitizer.chineseNameMaskMode",
+      "type": "com.stableforever.security.masking.Desensitizer.MaskMode",
+      "description": "Mask mode for Chinese name",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": "MIDDLE",
+      "values": [
+        {
+          "value": "MIDDLE"
+        },
+        {
+          "value": "HEAD"
+        }
+      ]
+    },
+    {
+      "name": "web.desensitizer.chineseNameFixedPartAutoDecide",
+      "type": "java.lang.Boolean",
+      "description": "Should auto decide the fixed part",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "web.desensitizer.chineseNameHeadSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed head string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "web.desensitizer.idCardMaskMode",
+      "type": "com.stableforever.security.masking.Desensitizer.MaskMode",
+      "description": "Mask mode for idCard",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": "MIDDLE"
+    },
+    {
+      "name": "web.desensitizer.idCardFixedPartAutoDecide",
+      "type": "java.lang.Boolean",
+      "description": "Should auto decide the fixed part",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "web.desensitizer.idCardFixedHeadSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed head string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "web.desensitizer.idCardFixedTailSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed tail string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 4
+    },
+    {
+      "name": "web.desensitizer.phoneNumberMaskMode",
+      "type": "com.stableforever.security.masking.Desensitizer.MaskMode",
+      "description": "Mask mode",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": "MIDDLE"
+    },
+    {
+      "name": "web.desensitizer.phoneNumberFixedPartAutoDecide",
+      "type": "java.lang.Boolean",
+      "description": "Should auto decide the fixed part",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "web.desensitizer.phoneNumberFixedHeadSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed head string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "web.desensitizer.phoneNumberFixedTailSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed tail string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 4
+    },
+    {
+      "name": "web.desensitizer.addressMaskMode",
+      "type": "com.stableforever.security.masking.Desensitizer.MaskMode",
+      "description": "Mask mode",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": "MIDDLE"
+    },
+    {
+      "name": "web.desensitizer.addressFixedPartAutoDecide",
+      "type": "java.lang.Boolean",
+      "description": "Should auto decide the fixed part",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "web.desensitizer.addressFixedHeadSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed head string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "web.desensitizer.addressFixedTailSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed tail string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 4
+    },
+    {
+      "name": "web.desensitizer.emailMaskMode",
+      "type": "com.stableforever.security.masking.Desensitizer.MaskMode",
+      "description": "Mask mode",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": "MIDDLE"
+    },
+    {
+      "name": "web.desensitizer.emailFixedPartAutoDecide",
+      "type": "java.lang.Boolean",
+      "description": "Should auto decide the fixed part",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "web.desensitizer.emailFixedHeadSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed head string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "web.desensitizer.emailFixedTailSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed tail string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 4
+    },
+    {
+      "name": "web.desensitizer.bankCardMaskMode",
+      "type": "com.stableforever.security.masking.Desensitizer.MaskMode",
+      "description": "Mask mode",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": "MIDDLE"
+    },
+    {
+      "name": "web.desensitizer.bankCardFixedPartAutoDecide",
+      "type": "java.lang.Boolean",
+      "description": "Should auto decide the fixed part",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "web.desensitizer.bankCardFixedHeadSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed head string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "web.desensitizer.bankCardFixedTailSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed tail string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 4
+    },
+    {
+      "name": "web.desensitizer.genericMaskMode",
+      "type": "com.stableforever.security.masking.Desensitizer.MaskMode",
+      "description": "Mask mode",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": "MIDDLE"
+    },
+    {
+      "name": "web.desensitizer.genericFixedPartAutoDecide",
+      "type": "java.lang.Boolean",
+      "description": "Should auto decide the fixed part",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "web.desensitizer.genericFixedHeadSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed head string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "web.desensitizer.genericFixedTailSize",
+      "type": "java.lang.Integer",
+      "description": "Fixed tail string size",
+      "sourceType": "com.stableforever.security.masking.config.DesensitizerConfigProperties",
+      "defaultValue": 4
+    }
+  ]
+}
